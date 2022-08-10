@@ -1,0 +1,12 @@
+c:\Dev\HotfixGenerator\HotfixGenerator\bin\Debug\HotfixGenerator.exe.config
+c:\Dev\HotfixGenerator\HotfixGenerator\bin\Debug\HotfixGenerator.exe
+c:\Dev\HotfixGenerator\HotfixGenerator\bin\Debug\HotfixGenerator.pdb
+c:\Dev\HotfixGenerator\HotfixGenerator\bin\Debug\ZipForge.xml
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.csprojAssemblyReference.cache
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.Form1.resources
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.Properties.Resources.resources
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.csproj.GenerateResource.cache
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.csproj.CoreCompileInputs.cache
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.csproj.CopyComplete
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.exe
+c:\Dev\HotfixGenerator\HotfixGenerator\obj\Debug\HotfixGenerator.pdb
