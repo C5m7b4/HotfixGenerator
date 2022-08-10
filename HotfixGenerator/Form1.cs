@@ -245,6 +245,30 @@ namespace HotfixGenerator
                     case "office":
                         zip.Comment = @"TAR_PATH=RUN";
                         break;
+                    case "sqr":
+                        zip.Comment = @"TAR_PATH=RUN\OFFICE";
+                        break;
+                    case "htm":
+                        zip.Comment = @"TAR_PATH=RUN\OFFICE";
+                        break;
+                    case "lbz":
+                        zip.Comment = @"TAR_PATH=RUN\OFFICE";
+                        break;
+                    case "public":
+                        zip.Comment = @"TAR_PATH=RUN\OFFICE";
+                        break;
+                    case "script":
+                        zip.Comment = @"TAR_PATH=RUN\OFFICE";
+                        break;
+                    case "dbs":
+                        zip.Comment = @"TAR_PATH=RUN\OFFICE";
+                        break;
+                    case "dbt":
+                        zip.Comment = @"TAR_PATH=RUN\OFFICE";
+                        break;
+                    case "storeman":
+                        zip.Comment = @"TAR_PATH=RUN";
+                        break;
                     default:
 
                         break;
@@ -252,7 +276,16 @@ namespace HotfixGenerator
 
                 foreach( SmsFile file in files)
                 {
-                    zip.AddFiles(file.Directory + "\\" + file.Filename);
+                    if ( directory.ToLower() == "storeman")
+                    {
+                        zip.BaseDir = txtOutput.Text + "\\Storeman";
+                        zip.AddFiles(file.Filename);
+                    }
+                    else
+                    {
+                        zip.BaseDir = txtOutput.Text;
+                        zip.AddFiles(file.Directory + "\\" + file.Filename);
+                    }                    
                 }
 
                 zip.CloseArchive();
